@@ -1,0 +1,37 @@
+(1) database description
+
+School database that includes information about students, teachers, classes offered, and classrooms.
+
+(2) entities and their descriptions
+
+	Students
+Entity containing information about all students. Includes first name, last name, last name of homeroom teacher, and birthdate. 
+
+FIRST NAME: john LAST NAME: doe HOMEROOM: smith BIRTHDATE: 02-12-07
+FIRST NAME: jane LAST NAME: mick HOMEROOM: jackson BIRTHDATE: 07-30-05
+
+	Teachers
+Entity containing information about all teachers. Includes first name, last name, and birthdate.
+
+FIRST NAME: chloe LAST NAME: smith BIRTHDATE: 03-01-81
+FIRST NAME: angus LAST NAME: mick BIRTHDATE: 05-03-81
+
+	Classes
+Entity containing information about classes offered. Includes class name, grade level, teacher last name, and subject type (art, math, etc).
+
+CLASS NAME: art GRADE LEVEL: 100 LAST NAME: smith SUBJECT: art
+CLASS NAME: geometry GRADE LEVEL: 200 LAST NAME: doe SUBJECT: math
+
+	Classrooms
+Entity containing information about classrooms in the building. Includes room number, number of desks, and whether or not there are computers in the room.
+
+ROOM NUMBER: 325 DESKS: 32 COMPUTERS: no
+ROOM NUMBER: 005 DESKS: 28 COMPUTERS: yes
+
+(3) three questions/use-cases
+
+Show full list of employees sorted by last name
+
+Show attendance list based on students with same homeroom teacher
+
+Show computer labs in building based on classroom attribute
